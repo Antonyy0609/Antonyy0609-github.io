@@ -1,0 +1,181 @@
+.header {
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #9bc4bc;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+
+.header ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.header ul li::before {
+  content: "";
+  height: 3px;
+  width: 0;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  bottom: -12px;
+  transition: 0.4s ease-out;
+}
+
+.header ul li :hover ::before {
+  width: 100%;
+}
+
+body {
+  font-family: "Schibsted Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+.habilidades {
+  text-align: center;
+  padding: 35px 0;
+  background-color: #9bc4bc;
+}
+
+body {
+  background-color: #f1f1f1;
+  margin: 0;
+  padding: 0;
+}
+
+#mis-proyectos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.titulo {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.proyecto1-button,
+.proyecto2-button,
+.proyecto3-button,
+.esconder-proyectos {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #9bc4bc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.proyecto1-button:hover,
+.proyecto2-button:hover,
+.proyecto3-button:hover {
+  background-color: #9bc4bc;
+}
+.proyecto-1,
+.proyecto-2,
+.proyecto-3 {
+  display: none;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.texto-descriptivo {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.texto-a-color {
+  color: red;
+}
+
+img {
+  margin-top: 20px;
+  border-style: solid;
+  border-color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.proyectos {
+  align-items: center;
+  text-align: center;
+}
+
+.lista {
+  background-color: #9bc4bc;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+h2 {
+  text-align: center;
+}
+
+.spiderman {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-top: 50px;
+}
+
+footer {
+  background-color: #9bc4bc;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: red;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer li {
+  display: inline;
+}
+
+.asd {
+  display: block;
+  margin: 0 auto;
+}
